@@ -5,7 +5,7 @@ branches:
   only:
   - master
 
-before_deploy: mvn package
+install: mvn package --batch-mode --show-version --settings .travis.settings.xml
 
 notifications:
   email:
