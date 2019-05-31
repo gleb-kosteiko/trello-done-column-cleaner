@@ -13,4 +13,6 @@ It's [deployed to Heroku](https://dashboard.heroku.com/apps/trello-done-column-c
 
 ## How to run:
 
-`java -jar target/done-column-cleaner-0.0.1-SNAPSHOT.jar`
+1. Create next environment variables - COLUMN_ID, TRELLO_KEY, TRELLO_TOKEN
+
+2. Run `java -jar target/done-column-cleaner-0.0.1-SNAPSHOT.jar`
